@@ -11,7 +11,7 @@ int main() {
     int choice;
 
     do {
-        cout << endl;
+        cout << "Main Menu" <<endl;
         cout << "1. Admin Login" << endl;
         cout << "2. Member Login" << endl;
         cout << "0. Exit" << endl;
@@ -36,7 +36,7 @@ int main() {
                 int adminChoice;
 
                 do {
-                    cout << endl;
+                    cout << "Admin Menu" <<endl;
                     cout << "1. Show Books" << endl;
                     cout << "2. Add Book" << endl;
                     cout << "3. Issue Book" << endl;
@@ -71,7 +71,7 @@ int main() {
             if (members.login()) {
                 int memberChoice;
                 do {
-                    cout << endl;
+                    cout << "Member Menu"<<endl;
                     cout << "1. Show Books" << endl;
                     cout << "2. Borrow Book" << endl;
                     cout << "3. Return Book" << endl;
@@ -105,3 +105,4 @@ int main() {
     cout << "Goodbye" << endl;
     return 0;
 }
+
