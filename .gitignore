@@ -1,0 +1,7 @@
+# Build Artifacts
+*.exe
+*.o
+build/
+
+# Editor Settings
+.vscode/
