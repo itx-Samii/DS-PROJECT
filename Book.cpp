@@ -8,8 +8,6 @@ Books::Books() {
     top = NULL;
 }
 
-// ================= QUEUE (WAITING LIST) =================
-
 void Books::enqueue(int val) {
     QNode* temp = new QNode;
     temp->data = val;
@@ -42,7 +40,6 @@ bool Books::isQueueEmpty() {
     return qFront == NULL;
 }
 
-// ================= STACK (UNDO SYSTEM) =================
 
 void Books::push(string val) {
     SNode* temp = new SNode;
@@ -64,8 +61,6 @@ void Books::pop() {
 bool Books::isStackEmpty() {
     return top == NULL;
 }
-
-// ================= BOOK MANAGEMENT =================
 
 bool Books::isBookListEmpty() {
     return head == NULL;
