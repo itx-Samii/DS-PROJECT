@@ -27,7 +27,6 @@ g++ main.cpp Book.cpp Member.cpp -o library_app
     - Add Books
     - View Books
     - Issue/Return Books
-    - Undo last action
     - Add Members
 
 2. **Member Module**:
